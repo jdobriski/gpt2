@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ResumeGPT</title>
+</head>
+<body>
+    <h1>ResumeGPT</h1>
+    <p>Upload your resume, input job description, and provide additional context documents to generate a personalized cover letter.</p>
+    <form action="/generate" method="post" enctype="multipart/form-data">
+        <label for="resume">Upload your resume:</label>
+        <input type="file" name="resume" id="resume" required><br>
+        <label for="job_description">Enter job description:</label>
+        <textarea name="job_description" id="job_description" rows="5" cols="50" required></textarea><br>
+        <label for="context">Upload additional context documents (optional):</label>
+        <input type="file" name="context" id="context" multiple><br>
+        <input type="submit" value="Generate Cover Letter">
+    </form>
+</body>
+</html>

@@ -1,0 +1,5 @@
+1. Design a simple and intuitive interface for the automatic email drafting agent.
+2. Allow users to easily customize the agent's behavior and preferences.
+3. Provide clear instructions and tooltips for better user experience.
+4. Ensure compatibility with Microsoft 365 Outlook.
+5. Continuously gather user feedback to refine the interface.
